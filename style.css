@@ -3,7 +3,9 @@ body {
 }
 
 header {
-  background: #be2727;
+  background: url("https://pbs.twimg.com/media/EoILdrsXMAExd0c.jpg:large")
+    no-repeat center center;
+  background-size: 100%;
   margin: 0;
   border-bottom: 1px solid #c0c0c0;
   width: 100%;
@@ -11,6 +13,16 @@ header {
   top: 0;
   left: 0;
   color: aliceblue;
+  height: 100px;
+}
+
+.header {
+  display: inline-block;
+  float: none;
+  text-align: center;
+}
+.video {
+  text-align: center;
 }
 
 footer {
@@ -32,7 +44,5 @@ footer a:hover {
   background-color: #412a2a;
 }
 h1 {
-  align-content: center;
-  text-align: center;
   font-size: 200%;
 }
