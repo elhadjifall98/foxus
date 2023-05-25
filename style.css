@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: #be2727;
+  margin: 0;
+  border-bottom: 1px solid #c0c0c0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: aliceblue;
+}
+
+footer {
+  background: #be2727;
+  border-top: 1px solid #201e1e;
+  margin: 2em 0 0 0;
+  text-align: center;
+  padding: 20px 0;
+  height: 70px;
+  width: 100%;
+  color: aliceblue;
+}
+footer a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 5px;
+}
+footer a:hover {
+  background-color: #412a2a;
+}
+h1 {
+  align-content: center;
+  text-align: center;
+  font-size: 200%;
+}
